@@ -1,0 +1,28 @@
+
+nome = "matheus"
+numero = 6
+troco =4.65
+is_login = True
+
+
+print(type(nome)) #sempre com a primeira letra maiuscula
+print(type(numero))
+print(type(troco))
+print(type(is_login))
+
+
+nomes = ["matheus" , "maria", "carlos","miguel", "ana"]
+print(type(nomes)) #mostra o tipo da lista
+print(nomes) # mostra os nomes da lista
+print(nomes[1]) #mostra os nomes na segunda posição
+print(nomes.pop()) # exclui a ultima poição e mostra o nome anterior
+print(nomes)#mostra os nomes da lista
+nomes.pop() # exclui a ultima posição
+print(nomes)
+nomes.append("ana") #adiciona um nome na lista
+nomes.append("lorenzo")
+print (nomes)
+
+
+for x in nomes: # para posicao(x) em nomes faca exibir(print) em posicao(x) / 
+    print(x)
